@@ -9,7 +9,7 @@ public class Ball : MonoBehaviour {
     // Use this for initialization
     // 左上向きの速度をセットする
     void Start () {
-	    this.GetComponent<Rigidbody>().velocity = new Vector3(0.0f,8.0f,8.0f);
+	    this.GetComponent<Rigidbody>().velocity = new Vector3(0.0f,15.0f,10.0f);
     }
 
     // Update is called once per frame
